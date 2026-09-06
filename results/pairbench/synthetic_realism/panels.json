@@ -1,0 +1,42 @@
+{
+ "complex-profile": {
+  "real_scene_id": "complex-profile/single-01",
+  "twin_scene_id": "realism/complex-profile__single-01",
+  "panel_height_px": 839,
+  "panel_width_px": 1293,
+  "order": [
+   "real",
+   "twin"
+  ]
+ },
+ "heavy-profile": {
+  "real_scene_id": "heavy-profile/single-01",
+  "twin_scene_id": "realism/heavy-profile__single-01",
+  "panel_height_px": 516,
+  "panel_width_px": 1154,
+  "order": [
+   "real",
+   "twin"
+  ]
+ },
+ "l-profile": {
+  "real_scene_id": "l-profile-reshoot/single-01",
+  "twin_scene_id": "realism/l-profile-reshoot__single-01",
+  "panel_height_px": 308,
+  "panel_width_px": 1055,
+  "order": [
+   "real",
+   "twin"
+  ]
+ },
+ "square-profile": {
+  "real_scene_id": "square-profile/single-01",
+  "twin_scene_id": "realism/square-profile__single-01",
+  "panel_height_px": 350,
+  "panel_width_px": 1180,
+  "order": [
+   "real",
+   "twin"
+  ]
+ }
+}
