@@ -1,0 +1,11 @@
+{
+ "s1_mm": 2062.8091084919515,
+ "s2_mm": -3338.96875,
+ "median_residual_mm": -1.4775972678371545,
+ "iqr_mm": [
+  -5.1120540863503265,
+  0.15237070369266803
+ ],
+ "n_pairs": 415,
+ "note": "effective per-dataset step positions fitted from the 6005 mm bar-length prior; degenerate along the valley (see report)"
+}
