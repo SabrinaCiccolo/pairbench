@@ -1,0 +1,110 @@
+scene_id,gt_A,gt_B,gt_pairs,category,confidence,notes
+complex-profile/single-01,2,2,2,single,high,
+complex-profile/single-02,3,2,2,single,high,
+complex-profile/single-03,2,2,2,single,high,
+complex-profile/single-04,1,1,1,single,high,
+heavy-profile/single-01,3,3,3,single,high,
+heavy-profile/single-02,3,3,3,single,high,
+heavy-profile/single-03,3,3,3,single,high,
+heavy-profile/single-04,3,4,3,standing,high,
+heavy-profile/single-05,3,3,3,single,high,Side 1: rightmost profile has noise inside its outline.
+heavy-profile/single-06,3,3,3,single,high,
+heavy-profile/single-07,3,3,3,single,high,
+heavy-profile/single-08,3,3,3,single,high,
+heavy-profile/single-09,3,3,3,single,high,
+heavy-profile/single-10,3,3,3,single,high,Side 1: rightmost profile has noise inside its outline.
+heavy-profile/standing-01,3,4,3,standing,high,
+l-profile-reshoot/crossed-01,3,2,2,crossed,high,
+l-profile-reshoot/overlap-02,3,3,3,overlap,high,
+l-profile-reshoot/overlap-03,4,4,4,overlap,high,
+l-profile-reshoot/overlap-04,4,4,4,overlap,high,
+l-profile-reshoot/overlap-05,3,3,3,overlap,high,
+l-profile-reshoot/overlap-06,3,3,3,overlap,high,
+l-profile-reshoot/overlap-07,5,4,4,overlap,high,
+l-profile-reshoot/overlap-08,5,5,4,overlap,high,
+l-profile-reshoot/overlap-09,5,5,5,overlap,high,
+l-profile-reshoot/single-01,5,4,3,single,high,Side 1 and side 2: leftmost profile visible only as a small part (the tail of the L profile).
+l-profile-reshoot/single-02,2,2,2,single,high,
+l-profile-reshoot/single-03,3,3,3,single,high,
+l-profile-reshoot/standing-01,4,6,4,standing,high,The two leftmost profiles in side 2 are not visible in side 1.
+l-profile-reshoot/standing-02,4,6,4,standing,high,
+l-profile-reshoot/standing-03,4,6,4,standing,high,
+l-profile-reshoot/standing-04,2,3,2,standing,high,"Side 2 has a third profile on the left, only partially visible: it is standing (turned vertical), so only the bottom of the profile is visible. Not present in side 1."
+l-profile-reshoot/standing-05,11,11,11,standing,high,Side 2: rightmost profile is separate (isolated) from the others.
+l-profile-reshoot/standing-06,11,11,11,standing,high,
+l-profile-reshoot/standing-07,9,9,9,standing,high,
+l-profile-reshoot/tilted-01,5,4,3,tilted,high,
+l-profile-reshoot/tilted-02,5,4,3,tilted,high,one profile is slightly tilted
+l-profile-reshoot/tilted-03,4,5,4,tilted,high,Side 1 missing leftmost profile.
+l-profile-reshoot/tilted-04,3,3,3,tilted,high,
+l-profile-reshoot/tilted-05,3,3,3,tilted,high,
+l-profile/crossed-01,4,4,4,crossed,high,Side 1 has an isolated profile on the right; the same profile is isolated on the left in side 2 (crossed pair).
+l-profile/crossed-02,4,4,4,crossed,high,Same layout as l-profile/crossed-01.
+l-profile/crossed-03,4,4,4,crossed,high,Same layout as l-profile/crossed-01.
+l-profile/crossed-04,4,4,4,crossed,high,
+l-profile/crossed-05,4,4,4,crossed,high,
+l-profile/crossed-06,4,4,4,crossed,high,
+l-profile/crossed-07,3,3,3,crossed,high,
+l-profile/crossed-08,3,3,3,crossed,high,
+l-profile/overlap-01,5,6,5,overlap,high,Side 2: leftmost profile partially visible.
+l-profile/overlap-02,2,2,2,overlap,high,
+l-profile/overlap-03,5,5,5,overlap,high,Side 1: leftmost profile partially visible.
+l-profile/overlap-04,4,4,4,overlap,high,Side 1: leftmost profile partially visible.
+l-profile/overlap-05,4,4,4,overlap,high,Same layout as l-profile/overlap-04.
+l-profile/overlap-06,4,4,4,overlap,high,Same layout as l-profile/overlap-04.
+l-profile/overlap-07,4,4,4,overlap,high,Same layout as l-profile/overlap-04.
+l-profile/overlap-08,4,4,4,overlap,high,Same layout as l-profile/overlap-04.
+l-profile/overlap-09,4,4,4,overlap,high,Same layout as l-profile/overlap-04.
+l-profile/overlap-10,4,4,4,overlap,high,Same layout as l-profile/overlap-04.
+l-profile/overlap-11,4,4,4,overlap,high,
+l-profile/overlap-12,3,3,3,overlap,high,
+l-profile/overlap-13,3,2,2,overlap,high,
+l-profile/overlap-14,3,3,3,overlap,high,
+l-profile/single-01,3,3,3,single,high,
+l-profile/single-02,3,3,3,single,high,
+l-profile/single-03,3,3,3,single,high,
+l-profile/single-04,3,2,2,single,high,
+l-profile/single-05,3,3,3,single,high,"Side 1 and side 2 both see 3 profiles. Side 1 has noise on top, but it does not look like extra profiles."
+l-profile/single-06,3,3,3,single,high,Rightmost profile rotated 180°.
+l-profile/single-07,2,1,1,single,high,
+l-profile/single-08,2,2,2,single,high,Side 1: leftmost profile partially visible. Rightmost profile rotated 180°.
+l-profile/single-09,2,2,2,single,high,"One profile rotated 180°, so it does not visually overlap/cover its neighbor."
+l-profile/single-10,4,4,4,single,high,
+l-profile/single-11,3,3,3,single,high,
+l-profile/single-12,2,2,2,single,high,
+l-profile/standing-01,3,3,3,standing,high,
+l-profile/standing-02,4,4,4,standing,high,
+l-profile/standing-03,4,4,4,standing,high,
+l-profile/standing-04,4,5,4,standing,high,Side 1 missing leftmost profile.
+l-profile/standing-05,3,4,3,standing,high,Side 1 missing leftmost profile.
+l-profile/tilted-01,2,4,2,tilted,high,Side 2 has 2 extra profiles vs side 1; the leftmost of the two is partially visible. Neither extra profile appears in side 1.
+square-profile/single-01,10,8,8,single,high,
+square-profile/single-02,4,4,4,single,high,
+square-profile/single-03,4,4,4,single,high,
+square-profile/single-04,4,4,4,single,high,
+square-profile/single-05,4,4,4,single,high,
+square-profile/single-06,4,3,3,single,high,
+square-profile/single-07,4,3,3,single,high,
+square-profile/single-08,4,4,4,single,high,
+square-profile/single-09,3,3,3,single,high,
+square-profile/single-10,2,2,2,single,high,
+square-profile/single-11,8,6,6,single,high,
+square-profile/single-12,3,3,3,single,high,
+square-profile/single-13,3,3,3,single,high,
+square-profile/single-14,3,3,3,single,high,
+square-profile/single-15,3,3,3,single,high,
+square-profile/single-16,3,3,3,single,high,
+square-profile/single-17,5,5,5,single,high,
+square-profile/single-18,29,29,29,single,high,
+square-profile/single-19,3,3,3,single,high,
+square-profile/single-20,6,9,5,single,high,"Side 1: leftmost profile almost not visible, only a small part visible."
+square-profile/single-21,8,7,7,single,high,
+square-profile/single-22,8,8,8,single,high,
+square-profile/single-23,8,8,8,single,high,
+square-profile/single-24,8,8,8,single,high,
+square-profile/single-25,8,8,8,single,high,
+square-profile/single-26,7,9,7,single,high,
+square-profile/single-27,8,10,8,single,high,
+square-profile/single-28,9,10,9,single,high,
+square-profile/standing-01,4,4,4,standing,high,Square tube rotated ~35-40 deg about its own long axis (in-plane); the 90 deg-period cross-section makes this the same phenomenon as a 90 deg roll.
+l-profile-reshoot/overlap-01,5,6,5,overlap,high,Side 2 has one more profile on the left, not visible in side 1.
