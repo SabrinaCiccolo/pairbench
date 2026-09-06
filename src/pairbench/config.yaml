@@ -1,0 +1,3 @@
+# Overrides the default ./data location for pairbench's scan data.
+# PAIRBENCH_DATA_ROOT env var takes priority over this key when both are set.
+data_root: null

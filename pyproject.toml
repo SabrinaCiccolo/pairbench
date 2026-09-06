@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pairbench"
+version = "0.1.0"
+description = "Dual-scanner cross-view pairing benchmark for identical and symmetric parts"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = [
+    "numpy",
+    "scipy",
+    "pandas",
+    "matplotlib",
+    "pyyaml",
+    "open3d==0.19.0",
+    "opencv-python-headless",
+    "ezdxf",
+]
+
+[project.optional-dependencies]
+learned = ["torch==2.5.1"]
+dev = ["pytest"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
