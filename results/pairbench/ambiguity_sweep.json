@@ -1,0 +1,67 @@
+{
+ "n_scenes": 234,
+ "shifts": [
+  -2,
+  -1,
+  1,
+  2
+ ],
+ "periodicity": [
+  {
+   "placement": "centre",
+   "jitter_mm": 0.0,
+   "margin_at_whole_multiples": 7.518589239785019,
+   "margin_between_multiples": 7.520349568451925,
+   "difference": -0.0017603286669061191,
+   "range_over_transport": 0.02048492652139089,
+   "median_margin": 7.518961643160787
+  },
+  {
+   "placement": "centre",
+   "jitter_mm": 2.0,
+   "margin_at_whole_multiples": 7.6888358689905125,
+   "margin_between_multiples": 7.687231997363837,
+   "difference": 0.0016038716266750797,
+   "range_over_transport": 0.21424179968237222,
+   "median_margin": 7.687231997363837
+  },
+  {
+   "placement": "centre",
+   "jitter_mm": 10.0,
+   "margin_at_whole_multiples": 8.595536667601909,
+   "margin_between_multiples": 8.590604888991637,
+   "difference": 0.004931778610272275,
+   "range_over_transport": 0.4341485643526255,
+   "median_margin": 8.591488017161282
+  },
+  {
+   "placement": "edge",
+   "jitter_mm": 0.0,
+   "margin_at_whole_multiples": 7.49150284582025,
+   "margin_between_multiples": 7.485660626669324,
+   "difference": 0.005842219150926198,
+   "range_over_transport": 0.027836818852621015,
+   "median_margin": 7.49147436392805
+  },
+  {
+   "placement": "edge",
+   "jitter_mm": 2.0,
+   "margin_at_whole_multiples": 7.623534543318839,
+   "margin_between_multiples": 7.62091255581099,
+   "difference": 0.002621987507849255,
+   "range_over_transport": 0.023525752975642966,
+   "median_margin": 7.622546312155508
+  },
+  {
+   "placement": "edge",
+   "jitter_mm": 10.0,
+   "margin_at_whole_multiples": 8.320398459891567,
+   "margin_between_multiples": 8.31902050802304,
+   "difference": 0.00137795186852685,
+   "range_over_transport": 0.024541894945075526,
+   "median_margin": 8.31902050802304
+  }
+ ],
+ "unmatch_cost": 7.5,
+ "dist_cap": 4.5
+}
