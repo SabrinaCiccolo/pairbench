@@ -1,0 +1,735 @@
+{
+ "length_mm": 6005.0,
+ "gate_mm": 10.0,
+ "residual_iqr_mm": 4.362224243586752,
+ "residual_sigma_mm": 3.233672530457192,
+ "offset_to_reach_gate_mm": 346.69871646719434,
+ "offset_to_reach_3sigma_mm": 341.4722990444252,
+ "by_family": [
+  {
+   "family": "complex-profile",
+   "pitch_mm": 118.38999999999987,
+   "n_gaps": 3,
+   "dl_1_pitch_mm": 1.16693008943912,
+   "dl_2_pitch_mm": 4.666360822370734,
+   "dl_1_over_gate": 0.11669300894391199,
+   "dl_1_over_resid_sigma": 0.3608683558548626,
+   "pitches_to_reach_gate": 2.9284459537730783
+  },
+  {
+   "family": "heavy-profile",
+   "pitch_mm": 96.03499999999997,
+   "n_gaps": 44,
+   "dl_1_pitch_mm": 0.767871074022878,
+   "dl_2_pitch_mm": 3.070895462203225,
+   "dl_1_over_gate": 0.07678710740228781,
+   "dl_1_over_resid_sigma": 0.23746098802228213,
+   "pitches_to_reach_gate": 3.6101287704190606
+  },
+  {
+   "family": "l-profile",
+   "pitch_mm": 69.23000000000002,
+   "n_gaps": 167,
+   "dl_1_pitch_mm": 0.3990535933580759,
+   "dl_2_pitch_mm": 1.5960553045351844,
+   "dl_1_over_gate": 0.03990535933580759,
+   "dl_1_over_resid_sigma": 0.12340569108327608,
+   "pitches_to_reach_gate": 5.007925992592724
+  },
+  {
+   "family": "l-profile-reshoot",
+   "pitch_mm": 38.63000000000011,
+   "n_gaps": 161,
+   "dl_1_pitch_mm": 0.12425157881352789,
+   "dl_2_pitch_mm": 0.49699089092882787,
+   "dl_1_over_gate": 0.012425157881352789,
+   "dl_1_over_resid_sigma": 0.038424292393008826,
+   "pitches_to_reach_gate": 8.974856755557685
+  },
+  {
+   "family": "square-profile",
+   "pitch_mm": 40.210000000000036,
+   "n_gaps": 279,
+   "dl_1_pitch_mm": 0.13462331195387378,
+   "dl_2_pitch_mm": 0.5384751410929312,
+   "dl_1_over_gate": 0.013462331195387377,
+   "dl_1_over_resid_sigma": 0.04163170843240583,
+   "pitches_to_reach_gate": 8.622201354568366
+  }
+ ],
+ "empirical": [
+  {
+   "scene_id": "complex-profile/single-03",
+   "family": "complex-profile",
+   "shift": -1,
+   "pitch_mm": 118.38999999999987,
+   "dl_mm": 1.16693008943912,
+   "gap": 6.83290442784858
+  },
+  {
+   "scene_id": "heavy-profile/single-01",
+   "family": "heavy-profile",
+   "shift": 1,
+   "pitch_mm": 96.03499999999997,
+   "dl_mm": 0.767871074022878,
+   "gap": 7.066413179499807
+  },
+  {
+   "scene_id": "heavy-profile/single-02",
+   "family": "heavy-profile",
+   "shift": 1,
+   "pitch_mm": 96.03499999999997,
+   "dl_mm": 0.767871074022878,
+   "gap": 7.100528011033221
+  },
+  {
+   "scene_id": "heavy-profile/single-03",
+   "family": "heavy-profile",
+   "shift": 1,
+   "pitch_mm": 96.03499999999997,
+   "dl_mm": 0.767871074022878,
+   "gap": 7.081597938744531
+  },
+  {
+   "scene_id": "heavy-profile/single-04",
+   "family": "heavy-profile",
+   "shift": -1,
+   "pitch_mm": 96.03499999999997,
+   "dl_mm": 0.767871074022878,
+   "gap": 41.420303528382334
+  },
+  {
+   "scene_id": "heavy-profile/single-05",
+   "family": "heavy-profile",
+   "shift": -1,
+   "pitch_mm": 96.03499999999997,
+   "dl_mm": 0.767871074022878,
+   "gap": 6.111706284213939
+  },
+  {
+   "scene_id": "heavy-profile/single-06",
+   "family": "heavy-profile",
+   "shift": 1,
+   "pitch_mm": 96.03499999999997,
+   "dl_mm": 0.767871074022878,
+   "gap": 7.37864523206123
+  },
+  {
+   "scene_id": "heavy-profile/single-07",
+   "family": "heavy-profile",
+   "shift": 1,
+   "pitch_mm": 96.03499999999997,
+   "dl_mm": 0.767871074022878,
+   "gap": 7.402678345775011
+  },
+  {
+   "scene_id": "heavy-profile/single-08",
+   "family": "heavy-profile",
+   "shift": 1,
+   "pitch_mm": 96.03499999999997,
+   "dl_mm": 0.767871074022878,
+   "gap": 7.4163056798866815
+  },
+  {
+   "scene_id": "heavy-profile/single-09",
+   "family": "heavy-profile",
+   "shift": 1,
+   "pitch_mm": 96.03499999999997,
+   "dl_mm": 0.767871074022878,
+   "gap": 7.386743797387136
+  },
+  {
+   "scene_id": "heavy-profile/single-10",
+   "family": "heavy-profile",
+   "shift": -1,
+   "pitch_mm": 96.03499999999997,
+   "dl_mm": 0.767871074022878,
+   "gap": 7.416192767548069
+  },
+  {
+   "scene_id": "heavy-profile/standing-01",
+   "family": "heavy-profile",
+   "shift": -1,
+   "pitch_mm": 96.03499999999997,
+   "dl_mm": 0.767871074022878,
+   "gap": 41.423772479986425
+  },
+  {
+   "scene_id": "l-profile-reshoot/overlap-02",
+   "family": "l-profile-reshoot",
+   "shift": -1,
+   "pitch_mm": 38.63000000000011,
+   "dl_mm": 0.12425157881352789,
+   "gap": 8.62741711878874
+  },
+  {
+   "scene_id": "l-profile-reshoot/overlap-03",
+   "family": "l-profile-reshoot",
+   "shift": -1,
+   "pitch_mm": 38.63000000000011,
+   "dl_mm": 0.12425157881352789,
+   "gap": 7.295637702921104
+  },
+  {
+   "scene_id": "l-profile-reshoot/overlap-04",
+   "family": "l-profile-reshoot",
+   "shift": 1,
+   "pitch_mm": 38.63000000000011,
+   "dl_mm": 0.12425157881352789,
+   "gap": 9.031648521786797
+  },
+  {
+   "scene_id": "l-profile-reshoot/overlap-05",
+   "family": "l-profile-reshoot",
+   "shift": 1,
+   "pitch_mm": 38.63000000000011,
+   "dl_mm": 0.12425157881352789,
+   "gap": 6.607018422543089
+  },
+  {
+   "scene_id": "l-profile-reshoot/overlap-06",
+   "family": "l-profile-reshoot",
+   "shift": -1,
+   "pitch_mm": 38.63000000000011,
+   "dl_mm": 0.12425157881352789,
+   "gap": 8.961551140816903
+  },
+  {
+   "scene_id": "l-profile-reshoot/overlap-08",
+   "family": "l-profile-reshoot",
+   "shift": 1,
+   "pitch_mm": 38.63000000000011,
+   "dl_mm": 0.12425157881352789,
+   "gap": 6.643934185578749
+  },
+  {
+   "scene_id": "l-profile-reshoot/overlap-09",
+   "family": "l-profile-reshoot",
+   "shift": 1,
+   "pitch_mm": 38.63000000000011,
+   "dl_mm": 0.12425157881352789,
+   "gap": 6.653420540767188
+  },
+  {
+   "scene_id": "l-profile-reshoot/standing-01",
+   "family": "l-profile-reshoot",
+   "shift": -2,
+   "pitch_mm": 38.63000000000011,
+   "dl_mm": 0.49699089092882787,
+   "gap": 52.76494839511675
+  },
+  {
+   "scene_id": "l-profile-reshoot/standing-02",
+   "family": "l-profile-reshoot",
+   "shift": -2,
+   "pitch_mm": 38.63000000000011,
+   "dl_mm": 0.49699089092882787,
+   "gap": 59.170138009312595
+  },
+  {
+   "scene_id": "l-profile-reshoot/standing-03",
+   "family": "l-profile-reshoot",
+   "shift": -2,
+   "pitch_mm": 38.63000000000011,
+   "dl_mm": 0.49699089092882787,
+   "gap": 59.40633391868664
+  },
+  {
+   "scene_id": "l-profile-reshoot/standing-04",
+   "family": "l-profile-reshoot",
+   "shift": -1,
+   "pitch_mm": 38.63000000000011,
+   "dl_mm": 0.12425157881352789,
+   "gap": 21.480050974516598
+  },
+  {
+   "scene_id": "l-profile-reshoot/standing-05",
+   "family": "l-profile-reshoot",
+   "shift": 1,
+   "pitch_mm": 38.63000000000011,
+   "dl_mm": 0.12425157881352789,
+   "gap": 6.149172783141852
+  },
+  {
+   "scene_id": "l-profile-reshoot/standing-06",
+   "family": "l-profile-reshoot",
+   "shift": 1,
+   "pitch_mm": 38.63000000000011,
+   "dl_mm": 0.12425157881352789,
+   "gap": 6.163499454109786
+  },
+  {
+   "scene_id": "l-profile-reshoot/tilted-01",
+   "family": "l-profile-reshoot",
+   "shift": -1,
+   "pitch_mm": 38.63000000000011,
+   "dl_mm": 0.12425157881352789,
+   "gap": 14.793048675530104
+  },
+  {
+   "scene_id": "l-profile-reshoot/tilted-02",
+   "family": "l-profile-reshoot",
+   "shift": -1,
+   "pitch_mm": 38.63000000000011,
+   "dl_mm": 0.12425157881352789,
+   "gap": 14.801676915017975
+  },
+  {
+   "scene_id": "l-profile-reshoot/tilted-04",
+   "family": "l-profile-reshoot",
+   "shift": -2,
+   "pitch_mm": 38.63000000000011,
+   "dl_mm": 0.49699089092882787,
+   "gap": 14.620760626425481
+  },
+  {
+   "scene_id": "l-profile/crossed-04",
+   "family": "l-profile",
+   "shift": -1,
+   "pitch_mm": 69.23000000000002,
+   "dl_mm": 0.3990535933580759,
+   "gap": 6.99070834155054
+  },
+  {
+   "scene_id": "l-profile/crossed-05",
+   "family": "l-profile",
+   "shift": -1,
+   "pitch_mm": 69.23000000000002,
+   "dl_mm": 0.3990535933580759,
+   "gap": 7.3184271205262235
+  },
+  {
+   "scene_id": "l-profile/crossed-06",
+   "family": "l-profile",
+   "shift": -1,
+   "pitch_mm": 69.23000000000002,
+   "dl_mm": 0.3990535933580759,
+   "gap": 7.380167485539644
+  },
+  {
+   "scene_id": "l-profile/overlap-01",
+   "family": "l-profile",
+   "shift": -1,
+   "pitch_mm": 69.23000000000002,
+   "dl_mm": 0.3990535933580759,
+   "gap": 7.003913926670194
+  },
+  {
+   "scene_id": "l-profile/overlap-02",
+   "family": "l-profile",
+   "shift": -1,
+   "pitch_mm": 69.23000000000002,
+   "dl_mm": 0.3990535933580759,
+   "gap": 6.581276720039556
+  },
+  {
+   "scene_id": "l-profile/overlap-03",
+   "family": "l-profile",
+   "shift": -1,
+   "pitch_mm": 69.23000000000002,
+   "dl_mm": 0.3990535933580759,
+   "gap": 6.4135819401179015
+  },
+  {
+   "scene_id": "l-profile/overlap-04",
+   "family": "l-profile",
+   "shift": -1,
+   "pitch_mm": 69.23000000000002,
+   "dl_mm": 0.3990535933580759,
+   "gap": 6.482539115864907
+  },
+  {
+   "scene_id": "l-profile/overlap-05",
+   "family": "l-profile",
+   "shift": -1,
+   "pitch_mm": 69.23000000000002,
+   "dl_mm": 0.3990535933580759,
+   "gap": 9.562332461975345
+  },
+  {
+   "scene_id": "l-profile/overlap-06",
+   "family": "l-profile",
+   "shift": -1,
+   "pitch_mm": 69.23000000000002,
+   "dl_mm": 0.3990535933580759,
+   "gap": 9.555706191794252
+  },
+  {
+   "scene_id": "l-profile/overlap-07",
+   "family": "l-profile",
+   "shift": -1,
+   "pitch_mm": 69.23000000000002,
+   "dl_mm": 0.3990535933580759,
+   "gap": 9.560977070537954
+  },
+  {
+   "scene_id": "l-profile/overlap-08",
+   "family": "l-profile",
+   "shift": -1,
+   "pitch_mm": 69.23000000000002,
+   "dl_mm": 0.3990535933580759,
+   "gap": 9.545196806006478
+  },
+  {
+   "scene_id": "l-profile/overlap-09",
+   "family": "l-profile",
+   "shift": -1,
+   "pitch_mm": 69.23000000000002,
+   "dl_mm": 0.3990535933580759,
+   "gap": 9.557709350430473
+  },
+  {
+   "scene_id": "l-profile/overlap-10",
+   "family": "l-profile",
+   "shift": 1,
+   "pitch_mm": 69.23000000000002,
+   "dl_mm": 0.3990535933580759,
+   "gap": 6.711300586022028
+  },
+  {
+   "scene_id": "l-profile/overlap-11",
+   "family": "l-profile",
+   "shift": 1,
+   "pitch_mm": 69.23000000000002,
+   "dl_mm": 0.3990535933580759,
+   "gap": 7.4410532283051545
+  },
+  {
+   "scene_id": "l-profile/overlap-12",
+   "family": "l-profile",
+   "shift": 1,
+   "pitch_mm": 69.23000000000002,
+   "dl_mm": 0.3990535933580759,
+   "gap": 6.503943723285161
+  },
+  {
+   "scene_id": "l-profile/overlap-13",
+   "family": "l-profile",
+   "shift": 1,
+   "pitch_mm": 69.23000000000002,
+   "dl_mm": 0.3990535933580759,
+   "gap": 4.481424638600934
+  },
+  {
+   "scene_id": "l-profile/overlap-14",
+   "family": "l-profile",
+   "shift": -1,
+   "pitch_mm": 69.23000000000002,
+   "dl_mm": 0.3990535933580759,
+   "gap": 5.4567618926528185
+  },
+  {
+   "scene_id": "l-profile/single-01",
+   "family": "l-profile",
+   "shift": 1,
+   "pitch_mm": 69.23000000000002,
+   "dl_mm": 0.3990535933580759,
+   "gap": 6.748796728004984
+  },
+  {
+   "scene_id": "l-profile/single-02",
+   "family": "l-profile",
+   "shift": 1,
+   "pitch_mm": 69.23000000000002,
+   "dl_mm": 0.3990535933580759,
+   "gap": 6.75267398497865
+  },
+  {
+   "scene_id": "l-profile/single-03",
+   "family": "l-profile",
+   "shift": 1,
+   "pitch_mm": 69.23000000000002,
+   "dl_mm": 0.3990535933580759,
+   "gap": 6.773364713341945
+  },
+  {
+   "scene_id": "l-profile/single-04",
+   "family": "l-profile",
+   "shift": -1,
+   "pitch_mm": 69.23000000000002,
+   "dl_mm": 0.3990535933580759,
+   "gap": 7.266828816668535
+  },
+  {
+   "scene_id": "l-profile/single-05",
+   "family": "l-profile",
+   "shift": 1,
+   "pitch_mm": 69.23000000000002,
+   "dl_mm": 0.3990535933580759,
+   "gap": 6.494471439326764
+  },
+  {
+   "scene_id": "l-profile/single-06",
+   "family": "l-profile",
+   "shift": 1,
+   "pitch_mm": 69.23000000000002,
+   "dl_mm": 0.3990535933580759,
+   "gap": 5.882427318499804
+  },
+  {
+   "scene_id": "l-profile/single-09",
+   "family": "l-profile",
+   "shift": -1,
+   "pitch_mm": 69.23000000000002,
+   "dl_mm": 0.3990535933580759,
+   "gap": 9.025193700324413
+  },
+  {
+   "scene_id": "l-profile/single-10",
+   "family": "l-profile",
+   "shift": 1,
+   "pitch_mm": 69.23000000000002,
+   "dl_mm": 0.3990535933580759,
+   "gap": 6.5575287724188325
+  },
+  {
+   "scene_id": "l-profile/single-11",
+   "family": "l-profile",
+   "shift": -1,
+   "pitch_mm": 69.23000000000002,
+   "dl_mm": 0.3990535933580759,
+   "gap": 5.492716404039156
+  },
+  {
+   "scene_id": "l-profile/single-12",
+   "family": "l-profile",
+   "shift": -1,
+   "pitch_mm": 69.23000000000002,
+   "dl_mm": 0.3990535933580759,
+   "gap": 7.34619853633074
+  },
+  {
+   "scene_id": "l-profile/standing-01",
+   "family": "l-profile",
+   "shift": 1,
+   "pitch_mm": 69.23000000000002,
+   "dl_mm": 0.3990535933580759,
+   "gap": 45.37999480265319
+  },
+  {
+   "scene_id": "l-profile/standing-02",
+   "family": "l-profile",
+   "shift": -1,
+   "pitch_mm": 69.23000000000002,
+   "dl_mm": 0.3990535933580759,
+   "gap": 45.835236650346346
+  },
+  {
+   "scene_id": "l-profile/standing-03",
+   "family": "l-profile",
+   "shift": -1,
+   "pitch_mm": 69.23000000000002,
+   "dl_mm": 0.3990535933580759,
+   "gap": 43.96986985946416
+  },
+  {
+   "scene_id": "l-profile/standing-04",
+   "family": "l-profile",
+   "shift": -1,
+   "pitch_mm": 69.23000000000002,
+   "dl_mm": 0.3990535933580759,
+   "gap": 44.989764216851846
+  },
+  {
+   "scene_id": "l-profile/standing-05",
+   "family": "l-profile",
+   "shift": -2,
+   "pitch_mm": 69.23000000000002,
+   "dl_mm": 1.5960553045351844,
+   "gap": 45.80043187542173
+  },
+  {
+   "scene_id": "l-profile/tilted-01",
+   "family": "l-profile",
+   "shift": -1,
+   "pitch_mm": 69.23000000000002,
+   "dl_mm": 0.3990535933580759,
+   "gap": 2.717767923462876
+  },
+  {
+   "scene_id": "square-profile/single-02",
+   "family": "square-profile",
+   "shift": -1,
+   "pitch_mm": 40.210000000000036,
+   "dl_mm": 0.13462331195387378,
+   "gap": 5.311611858604105
+  },
+  {
+   "scene_id": "square-profile/single-03",
+   "family": "square-profile",
+   "shift": -1,
+   "pitch_mm": 40.210000000000036,
+   "dl_mm": 0.13462331195387378,
+   "gap": 6.6199676383425015
+  },
+  {
+   "scene_id": "square-profile/single-04",
+   "family": "square-profile",
+   "shift": -1,
+   "pitch_mm": 40.210000000000036,
+   "dl_mm": 0.13462331195387378,
+   "gap": 6.6055514947263525
+  },
+  {
+   "scene_id": "square-profile/single-05",
+   "family": "square-profile",
+   "shift": 1,
+   "pitch_mm": 40.210000000000036,
+   "dl_mm": 0.13462331195387378,
+   "gap": 3.712525027555415
+  },
+  {
+   "scene_id": "square-profile/single-06",
+   "family": "square-profile",
+   "shift": -1,
+   "pitch_mm": 40.210000000000036,
+   "dl_mm": 0.13462331195387378,
+   "gap": 7.377984237123654
+  },
+  {
+   "scene_id": "square-profile/single-07",
+   "family": "square-profile",
+   "shift": -1,
+   "pitch_mm": 40.210000000000036,
+   "dl_mm": 0.13462331195387378,
+   "gap": 7.222265071238672
+  },
+  {
+   "scene_id": "square-profile/single-08",
+   "family": "square-profile",
+   "shift": 1,
+   "pitch_mm": 40.210000000000036,
+   "dl_mm": 0.13462331195387378,
+   "gap": 6.543711281069516
+  },
+  {
+   "scene_id": "square-profile/single-09",
+   "family": "square-profile",
+   "shift": -1,
+   "pitch_mm": 40.210000000000036,
+   "dl_mm": 0.13462331195387378,
+   "gap": 6.465166817534898
+  },
+  {
+   "scene_id": "square-profile/single-10",
+   "family": "square-profile",
+   "shift": 1,
+   "pitch_mm": 40.210000000000036,
+   "dl_mm": 0.13462331195387378,
+   "gap": 6.660539972335831
+  },
+  {
+   "scene_id": "square-profile/single-12",
+   "family": "square-profile",
+   "shift": -1,
+   "pitch_mm": 40.210000000000036,
+   "dl_mm": 0.13462331195387378,
+   "gap": 6.497779491946104
+  },
+  {
+   "scene_id": "square-profile/single-13",
+   "family": "square-profile",
+   "shift": -1,
+   "pitch_mm": 40.210000000000036,
+   "dl_mm": 0.13462331195387378,
+   "gap": 5.947510953369266
+  },
+  {
+   "scene_id": "square-profile/single-14",
+   "family": "square-profile",
+   "shift": 1,
+   "pitch_mm": 40.210000000000036,
+   "dl_mm": 0.13462331195387378,
+   "gap": 5.32831788978651
+  },
+  {
+   "scene_id": "square-profile/single-15",
+   "family": "square-profile",
+   "shift": 1,
+   "pitch_mm": 40.210000000000036,
+   "dl_mm": 0.13462331195387378,
+   "gap": 5.641957106962247
+  },
+  {
+   "scene_id": "square-profile/single-16",
+   "family": "square-profile",
+   "shift": 1,
+   "pitch_mm": 40.210000000000036,
+   "dl_mm": 0.13462331195387378,
+   "gap": 4.8178558229957495
+  },
+  {
+   "scene_id": "square-profile/single-17",
+   "family": "square-profile",
+   "shift": 1,
+   "pitch_mm": 40.210000000000036,
+   "dl_mm": 0.13462331195387378,
+   "gap": 5.086420981722977
+  },
+  {
+   "scene_id": "square-profile/single-19",
+   "family": "square-profile",
+   "shift": -1,
+   "pitch_mm": 40.210000000000036,
+   "dl_mm": 0.13462331195387378,
+   "gap": 7.4257534307739474
+  },
+  {
+   "scene_id": "square-profile/single-20",
+   "family": "square-profile",
+   "shift": 1,
+   "pitch_mm": 40.210000000000036,
+   "dl_mm": 0.13462331195387378,
+   "gap": 7.4422327357307125
+  },
+  {
+   "scene_id": "square-profile/single-21",
+   "family": "square-profile",
+   "shift": 1,
+   "pitch_mm": 40.210000000000036,
+   "dl_mm": 0.13462331195387378,
+   "gap": 7.468703549558604
+  },
+  {
+   "scene_id": "square-profile/single-23",
+   "family": "square-profile",
+   "shift": -1,
+   "pitch_mm": 40.210000000000036,
+   "dl_mm": 0.13462331195387378,
+   "gap": 6.037411497869298
+  },
+  {
+   "scene_id": "square-profile/single-24",
+   "family": "square-profile",
+   "shift": -1,
+   "pitch_mm": 40.210000000000036,
+   "dl_mm": 0.13462331195387378,
+   "gap": 7.74912835866019
+  },
+  {
+   "scene_id": "square-profile/single-25",
+   "family": "square-profile",
+   "shift": 1,
+   "pitch_mm": 40.210000000000036,
+   "dl_mm": 0.13462331195387378,
+   "gap": 7.503067881754462
+  },
+  {
+   "scene_id": "square-profile/single-26",
+   "family": "square-profile",
+   "shift": 1,
+   "pitch_mm": 40.210000000000036,
+   "dl_mm": 0.13462331195387378,
+   "gap": 7.475757795314182
+  },
+  {
+   "scene_id": "square-profile/standing-01",
+   "family": "square-profile",
+   "shift": 2,
+   "pitch_mm": 40.210000000000036,
+   "dl_mm": 0.5384751410929312,
+   "gap": 24.287208972360975
+  }
+ ],
+ "spearman_dl_vs_gap": 0.2506552032494619
+}
