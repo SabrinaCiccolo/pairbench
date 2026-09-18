@@ -1,0 +1,134 @@
+{
+ "grid": {
+  "DIST_SCALE_MM": [
+   20.0,
+   30.0,
+   40.0,
+   45.0,
+   50.0,
+   60.0
+  ],
+  "TWIST_SCALE_DEG": [
+   1.5,
+   2.5,
+   4.0
+  ],
+  "LEVEL_PENALTY": [
+   1.0,
+   2.0,
+   3.0
+  ],
+  "Z_OUTLIER_PENALTY": [
+   1.0,
+   2.0,
+   3.0
+  ],
+  "ALIGNED_UNMATCH_COST": [
+   5.5,
+   7.5,
+   9.5
+  ],
+  "ALIGNED_DIST_CAP": [
+   3.5,
+   4.5,
+   5.5
+  ],
+  "CONSENSUS_GATE_MM": [
+   20.0,
+   30.0,
+   40.0
+  ],
+  "Z_OUTLIER_MM": [
+   5.0,
+   8.0,
+   12.0
+  ],
+  "LEVEL_MATCH_MM": [
+   10.0,
+   20.0,
+   30.0
+  ],
+  "ONE_VIEW": [
+   true,
+   false
+  ],
+  "LEVEL_BY_HEIGHT": [
+   true,
+   false
+  ]
+ },
+ "default": {
+  "DIST_SCALE_MM": 45.0,
+  "TWIST_SCALE_DEG": 2.5,
+  "LEVEL_PENALTY": 2.0,
+  "Z_OUTLIER_PENALTY": 2.0,
+  "ALIGNED_UNMATCH_COST": 7.5,
+  "ALIGNED_DIST_CAP": 4.5,
+  "CONSENSUS_GATE_MM": 30.0,
+  "Z_OUTLIER_MM": 8.0,
+  "LEVEL_MATCH_MM": 20.0,
+  "ONE_VIEW": true,
+  "LEVEL_BY_HEIGHT": true
+ },
+ "n_configs": 3000,
+ "n_scenes": 108,
+ "resolved_claims": 407,
+ "summary": {
+  "in_sample_default": 0.9287469287469288,
+  "in_sample_best": 0.9287469287469288,
+  "n_best_configs": 14,
+  "best_configs_keep_both_extensions": true,
+  "reference_recall": 0.8722358722358723,
+  "lopo_cv_default_tiebreak": 0.9287469287469288,
+  "lopo_cv_uniform_among_tied": 0.8780204712620231,
+  "kfold_cv_default_tiebreak_mean": 0.9252579852579853,
+  "kfold_cv_uniform_among_tied_mean": 0.8982737478269708,
+  "kfold_cv_uniform_among_tied_range": [
+   0.8076937900467313,
+   0.9081353199000258
+  ],
+  "kfold_default_tied": "245/250"
+ },
+ "lopo": {
+  "complex-profile": {
+   "n_tied": 14,
+   "default_tied": true,
+   "held_tiebreak": 5,
+   "held_min": 5,
+   "held_mean": 5.0,
+   "held_max": 5,
+   "held_default": 5,
+   "resolved": 5
+  },
+  "heavy-profile": {
+   "n_tied": 14,
+   "default_tied": true,
+   "held_tiebreak": 32,
+   "held_min": 32,
+   "held_mean": 32.0,
+   "held_max": 32,
+   "held_default": 32,
+   "resolved": 33
+  },
+  "l-profile": {
+   "n_tied": 153,
+   "default_tied": true,
+   "held_tiebreak": 194,
+   "held_min": 147,
+   "held_mean": 181.5032679738562,
+   "held_max": 194,
+   "held_default": 194,
+   "resolved": 213
+  },
+  "square-profile": {
+   "n_tied": 94,
+   "default_tied": true,
+   "held_tiebreak": 147,
+   "held_min": 128,
+   "held_mean": 138.85106382978722,
+   "held_max": 147,
+   "held_default": 147,
+   "resolved": 156
+  }
+ }
+}
